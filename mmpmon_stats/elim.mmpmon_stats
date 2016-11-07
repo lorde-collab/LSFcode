@@ -1,0 +1,4 @@
+#!/bin/bash
+
+### I actually hardcoded the value of $LSF_SERVERDIR below in my prod implementation
+python $LSF_SERVERDIR/mmpmon_stats.py
