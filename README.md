@@ -10,4 +10,4 @@ Because the raw output from mmdiag can be so noisy, the data is queried every ~1
 An elim for estimating the underlying values of various GPFS metrics on a host.
 The elim utilizes '/usr/lpp/mmfs/bin/mmpmon -s -p' to get information about current values of various counters. These 
 values are quite noisy so the underlying metrics are kept in memory and the secant line is taken to estimate the 
-overall rate of change.
+time averaged rate of change.
